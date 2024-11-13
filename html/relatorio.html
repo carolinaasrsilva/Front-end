@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatório</title>
-    <link rel="stylesheet" href="../css/relatorio_style.css">
+    <link rel="stylesheet" href="relatorio_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -66,61 +66,31 @@
         <section class="filtro">
             <div class="nome-cpf">
                 <div class=" form-input1">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" placeholder="Ex.: Nome">
+                  
                 </div>
                 <div class="form-input2">
-                    <label for="cpf">CPF</label>
-                    <input type="text" name="cpf" pattern="\d{3}(\.?\d{3}){2}-?\d{2}|^\d{11}$"
-                        title="Digite um CPF no formato: xxx.xxx.xxx-xx ou xxxxxxxxxxx"
-                        placeholder="Ex.: 000.000.000-00">
+                    
                 </div>
             </div>
             <div class="email-resp">
                 <div class="form-input3">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Ex.: senac321@petrolina.pe.senac.br">
+                
                 </div>
                 <div class="form-input4">
-                    <label for="nome">Responsável</label>
-                    <input type="text" id="nome" placeholder="Ex.: Nome">
+                  
                 </div>
             </div>
             <div class="data-material">
                 <div class="form-input5">
-                    <div class="l1">
-                        <label for="data">Data evento</label>
+                
                     </div>
                     <div class="inp">
-                        <input type="date" id="data">
-                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                        <input type="date" id="data">
+                     
                     </div>
                 </div>
-                <div class="search_select_box">
-                    <label for="material">Material</label>
-                    <select class="w-100" data-live-search="true">
-                        <option data-tokens>Cabo de rede</option>
-                        <option data-tokens>Placa mãe</option>
-                        <option data-tokens>Ferro</option>
-                        <option data-tokens>Impressora 3D</option>
-                        <option data-tokens>WI-FI</option>
-                    </select>
-                </div>
+              
             </div>
-            <div class="status">
-                <h6 class="statusnome">Status</h6>
-                <div class="concluido-pendente">
-                    <div class="concluido">
-                        <input type="radio" id="Concluído" name="fav_language" value="Concluído">
-                        <label class="cp" for="Concluído">Concluído</label><br>
-                    </div>
-                    <div class="pendente">
-                        <input type="radio" id="Pendente" name="fav_language" value="Pendente">
-                        <label class="cp" for="Pendente">Pendente</label><br>
-                    </div>
-                </div>
-            </div>
+           
         </section>
         <section class="section-pop-up">
             <dialog>
@@ -236,6 +206,6 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/2.1.5/js/dataTables.js"></script>
     <script src="https://cdn.datatables.net/responsive/3.0.3/js/dataTables.responsive.min.js"></script>
-    <script src="../js/relatorio_script.js"></script>
+    <script src="relatorio_script.js"></script>
 </body>
 </html>
